@@ -50,7 +50,7 @@ function Post(props) {
       <img
         class="imgpost"
         src={props.imgPost}
-        onClick={curtirPostImage}
+        onDoubleClick={curtirPostImage}
         alt=""
         data-test="post-image"
       />
